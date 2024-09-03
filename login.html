@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>로그인</title>
+    <link rel="stylesheet" href="css/style.css">
+     <!-- Link Swiper's CSS -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+     
+     <!-- Link Swiper's CSS -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+    <script src="script/jquery-3.7.1.js"></script>
+    <script src="script/action.js"></script>
+      <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".section2Slide", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      keyboard: {
+        enabled: true,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+
+
+
+  </script>
+</head>
+<body>
+    <header>
+        <div class="centerbox1200">
+            <h1><a href="index.html"><img src="images/V-LOGO.png" alt=""></a></h1>
+            
+                <!-- 햄버거메뉴 -->
+    <div class="mo_menu">
+        <span></span>
+    </div>
+
+    <div class="mo_gnb_box">
+        <ul class="mo_gnb">
+
+        </ul>
+    </div>
+            <nav>
+                <ul class="gnb">
+                    <li><a href="sub.html">회사소개</a></li>
+                    <li><a href="#">메뉴</a></li>
+                    <li><a href="#">e-쿠폰</a></li>
+                    <li><a href="#">이벤트 제휴</a></li>
+                </ul>
+                
+            <div class="spotmenu">
+                <a href="#">로그인</a>
+                <a href="#">회원가입</a>
+            </div>
+            </nav>
+    
+        </div>
+    </header>
+    <div id="sub_visual">
+        <!-- Swiper -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="images/sub_visual1.png" alt=""></div>
+      <div class="swiper-slide"><img src="images/image 68.png" alt=""></div>
+      <div class="swiper-slide"><img src="images/image 69.png" alt=""></div>
+      <div class="swiper-slide"><img src="images/image 70.png" alt=""></div>
+      <div class="swiper-slide"><img src="images/image 71.png" alt=""></div>
+      
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+
+
+      
+    </div>
+    <div data-aos="fade-down"
+    data-aos-easing="linear"
+    data-aos-duration="1500" id="sub_section1">
+        <h2>LOGIN</h2>
+  
+      </div>
+    
+
+    <div class="line" data-aos="fade-down"
+    data-aos-easing="linear"
+    data-aos-duration="1500"></div>
+
+    
+       
+    <section class="login_1" data-aos="fade-down"
+    data-aos-easing="linear"
+    data-aos-duration="1500">
+       
+             <form action="">
+               
+                    
+                      <legend>LOGIN</legend>
+                    
+                      <div class="login_box">
+                            
+                                
+                                     <ul>
+                                          <li><input type="text" placeholder="아이디를입력하세요"></li>
+                                         <li> <input 
+                                            .login_box li input[type="password"] type="password" placeholder="비밀번호를입력하세요">
+                                            <div class="view_pw"><img src="images/open_eyes.png" alt="비밀번호보기"></div>
+                                            <div class="hide_pw"><img src="images/close_eyes.png" alt="비밀번호숨기기"></div>
+                                        </li>
+                                          <li>
+                                              <input type="checkbox">
+                                              <label for="checkbox">아이디 저장</label>
+                                          </li> 
+                                     </ul>
+                                     <div class="btn_box">
+                                        <button>로그인</button>
+                                    </div>
+                                     <div class="link_box">
+                                        <a href="join.html">회원가입</a>
+                                        <a href="#">비밀번호찾기</a>
+                                    </div>
+                                
+                            
+                      </div>
+
+                
+             </form>
+        
+    </section>
+    <footer data-aos="fade-down"
+    data-aos-easing="linear"
+    data-aos-duration="1500">
+      
+            <div class="logo">
+                <a href="#"><img src="images/logo.png" alt=""></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">서비스</a></li>
+                    <li><a href="#">도미노소식</a></li>
+                    <li><a href="#">프리미엄</a></li>
+                    <li><a href="#">커뮤니티</a></li>
+                    <li><a href="#">고객센터</a></li>
+                </ul>
+            </nav>
+            <div class="sns">
+                <a href="#"><img src="images/footer1.png" alt=""></a>
+                <a href="#" class="sns2"><img src="images/footer2.png" alt=""></a>
+                <a href="#"><img src="images/footer3.png" alt=""></a>
+            </div>
+    </footer>
+
+    <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,  //초기값 설정 모바일값이 먼저!!
+      spaceBetween: 0,
+      cssMode: true,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+      mousewheel: true,
+      keyboard: true,
+      breakpoints: {
+      
+        768: {
+          slidesPerView: 1,  //브라우저가 768보다 클 때
+          spaceBetween: 0,
+        },
+        1024: {
+          slidesPerView: 1,  //브라우저가 1024보다 클 때
+          spaceBetween: 0,
+        },
+      },
+    });
+  </script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+      AOS.init();
+    </script>
+</body>
+</html>
