@@ -29,10 +29,10 @@ $(document).ready(function () {
         }
     })
     $('header .gnb').mouseenter(function () {
-        $('.lnb').stop().slideDown(300);
+        $('.lnb').stop().slideDown(500);
     })
     $('header .gnb').mouseleave(function () {
-        $('.lnb').stop().slideUp(300);
+        $('.lnb').stop().slideUp(500);
     })
     //mobile menu
     $('.mo_gnb > li > a').click(function () {
@@ -64,6 +64,21 @@ $(document).ready(function () {
 
 
     })
+
+
+
+    let circleW = $('.mouse_circle').width();
+    let circleH = $('.mouse_circle').height();
+    let y
+    $(window).mousemove(function (e) {
+        let x = e.clientX;
+        y = e.clientY;
+        $('.mouse_circle').css({ left: x - circleW / 2, top: y - circleH / 2 });
+    })
+
+    $(window).scroll(function () {
+        $('.mouse_circle').css({ top: y - circleH / 2 });
+    });
 
 
 })

@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입</title>
+    <link rel="stylesheet" href="css/style.css">
+     <!-- Link Swiper's CSS -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+     
+     <!-- Link Swiper's CSS -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+    <script src="script/jquery-3.7.1.js"></script>
+    <script src="script/action.js"></script>
+      <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".section2Slide", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      keyboard: {
+        enabled: true,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+
+
+
+  </script>
+</head>
+<body>
+    <header>
+        <div class="centerbox1200">
+            <h1><a href="index.html"><img src="images/V-LOGO.png" alt=""></a></h1>
+            
+                <!-- 햄버거메뉴 -->
+    <div class="mo_menu">
+        <span></span>
+    </div>
+
+    <div class="mo_gnb_box">
+        <ul class="mo_gnb">
+
+        </ul>
+    </div>
+            <nav>
+                <ul class="gnb">
+                    <li><a href="sub.html">회사소개</a></li>
+                    <li><a href="#">메뉴</a></li>
+                    <li><a href="#">e-쿠폰</a></li>
+                    <li><a href="#">이벤트 제휴</a></li>
+                </ul>
+                
+            <div class="spotmenu">
+                <a href="#">로그인</a>
+                <a href="#">회원가입</a>
+            </div>
+            </nav>
+    
+        </div>
+    </header>
+    <div id="sub_visual">
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+         <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="images/sub_visual1.png" alt=""></div>
+                <div class="swiper-slide"><img src="images/image 68.png" alt=""></div>
+                <div class="swiper-slide"><img src="images/image 69.png" alt=""></div>
+                <div class="swiper-slide"><img src="images/image 70.png" alt=""></div>
+                <div class="swiper-slide"><img src="images/image 71.png" alt=""></div>
+      
+         </div>
+         <div class="swiper-button-next"></div>
+         <div class="swiper-button-prev"></div>
+         <div class="swiper-pagination"></div>
+        </div>
+
+
+
+      
+    </div>
+    <nav class="snb">
+        <div class="centerbox1200">
+           
+            <span class="snb_line"></span>
+        </div>
+    </nav>
+
+    <article class="content board news">
+        <div class="centerbox1200">
+         <div class="board_box">
+            <div class="board_top">
+                <div class="search">
+                    <input type="text">
+                   <button> <i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+                <a href="board_write.html" class="btn1 btnC1">문의하기</a>
+            </div>
+            <div class="board_list"> 
+              <ul class="title_line">
+                <li>번호</li>
+                <li>구분</li>
+                <li class="subject">제목</li>
+                <li>작성자</li>
+                <li>작성일</li>
+                <li>상태</li>
+              </ul>
+              <ul class="content_box">
+                <li>
+                    <a href="#">
+                        <span class="num">777</span>
+                        <em>일반문의</em>
+                        <h5>[비공개] 제목제목제목제목제목제목제목제목제목제목제목제목제목제목제목제목제목제목제목제목</h5>
+                        <span class="name">강**</span>
+                        <span class="date">24.08.14</span>
+                        <span class="reply_icon">
+                            <p class="reply_ok">답변완료</p>
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="num">777</span>
+                        <em>일반문의</em>
+                        <h5>제목제목제목제목</h5>
+                        <span class="name">강**</span>
+                        <span class="date">24.08.14</span>
+                        <span class="reply_icon"><p class="reply_ok">답변완료</p></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="num">777</span>
+                        <em>일반문의</em>
+                        <h5>제목제목제목제목</h5>
+                        <span class="name">강**</span>
+                        <span class="date">24.08.14</span>
+                        <span class="reply_icon"><p class="reply_wait">답변대기</p></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="num">777</span>
+                        <em>일반문의</em>
+                        <h5>제목제목제목제목</h5>
+                        <span class="name">강**</span>
+                        <span class="date">24.08.14</span>
+                        <span class="reply_icon"><p class="reply_wait">답변대기</p></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="num">777</span>
+                        <em>일반문의</em>
+                        <h5>제목제목제목제목</h5>
+                        <span class="name">강**</span>
+                        <span class="date">24.08.14</span>
+                        <span class="reply_icon"><p class="reply_ok">답변완료</p></span>
+                    </a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="pagination">
+                <!-- 비활성화 class는 off -->
+                <a href="#" class="btn_page off"><i class="fa-solid fa-angles-left"></i></a>
+                <ul class="page_num">
+                    <li class="on"><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                </ul>
+                <a href="#" class="btn_page"><i class="fa-solid fa-angles-right"></i></a>
+
+            </div>
+         </div>
+     </div>
+    </article>
+    
+</div>
+
+
+           
+    </section>
+    <footer data-aos="fade-down"
+    data-aos-easing="linear"
+    data-aos-duration="1500">
+      
+            <div class="logo">
+                <a href="#"><img src="images/logo.png" alt=""></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">서비스</a></li>
+                    <li><a href="#">도미노소식</a></li>
+                    <li><a href="#">프리미엄</a></li>
+                    <li><a href="#">커뮤니티</a></li>
+                    <li><a href="#">고객센터</a></li>
+                </ul>
+            </nav>
+            <div class="sns">
+                <a href="#"><img src="images/footer1.png" alt=""></a>
+                <a href="#" class="sns2"><img src="images/footer2.png" alt=""></a>
+                <a href="#"><img src="images/footer3.png" alt=""></a>
+            </div>
+    </footer>
+
+    <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,  //초기값 설정 모바일값이 먼저!!
+      spaceBetween: 0,
+      cssMode: true,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+      mousewheel: true,
+      keyboard: true,
+      breakpoints: {
+      
+        768: {
+          slidesPerView: 1,  //브라우저가 768보다 클 때
+          spaceBetween: 0,
+        },
+        1024: {
+          slidesPerView: 1,  //브라우저가 1024보다 클 때
+          spaceBetween: 0,
+        },
+      },
+    });
+  </script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+      AOS.init();
+    </script>
+</body>
+</html>

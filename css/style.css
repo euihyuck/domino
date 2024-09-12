@@ -9,6 +9,8 @@
 
 }
 
+.mouse_circle {position: fixed; width: 20px; height: 20px; background: #238ed1; border: 2px solid #fff; border-radius: 50%; pointer-events: none; left: -1000px; top: -1000px; z-index: 77; mix-blend-mode: difference;}
+
 header {
     position: absolute;
     width: 100%;
@@ -50,11 +52,8 @@ header nav .gnb {
     gap: 80px
 }
 
-
-header nav .gnb > li {
-    font-size: 20px;
-    position: relative;
-    border-bottom: 1px solid #000;
+header nav .gnb li {
+    font-size: 20px;position: relative 
 }
 
 header nav .gnb li a {
@@ -62,38 +61,11 @@ header nav .gnb li a {
     display: block;
     color: #000;
 }
+header .gnb li:before {content: "";position: absolute;width: 0px; height: 2px;left:0 ;bottom: 0;background: #2854C5;bottom: 0;left: 50%;transform: translate(-50%) ;transition: 0.3s;z-index: -1;}
+header .gnb li:hover::before{width: 50% ;left: 50%;}
 
-header nav .gnb li .lnb {
-    position: absolute; 
-    background: #fff; 
-    width: 100%; 
-    padding: 20px 0; 
-    display: none; 
-    text-align: center;
-    top: 100%; /* lnb를 메인 메뉴 바로 아래에 붙게 설정 */
-    left: 0;   /* lnb를 메인 메뉴와 수평으로 맞춤 */
-}
 
-header nav .gnb > li:hover .lnb {
-    display: block; /* 메인 메뉴에 마우스를 올리면 lnb가 보이게 설정 */
-}
 
-header nav .gnb li .lnb li {
-    font-size: 18px;
-}
-
-header nav .gnb li .lnb li:hover {
-    background: #238ED1;
-    color: #000;
-}
-
-header nav .gnb li .lnb li a {
-    color: #000;
-}
-
-header nav .gnb li .lnb li:hover a {
-    color: #000;
-}
 .mo_gnb_box {display:none;}
 .mo_gnb_box li {position: relative;}
 .mo_gnb_box li .lnb {display:none}
