@@ -449,28 +449,19 @@ ID와 비밀번호를 사용하여 발생하는 모든 결과에 대한 책임�
   <!-- Initialize Swiper -->
   <script>
     var swiper = new Swiper(".mySwiper", {
-      slidesPerView: 1,  //초기값 설정 모바일값이 먼저!!
-      spaceBetween: 0,
-      cssMode: true,
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
       },
       pagination: {
         el: ".swiper-pagination",
+        clickable: true,
       },
-      mousewheel: true,
-      keyboard: true,
-      breakpoints: {
-      
-        768: {
-          slidesPerView: 1,  //브라우저가 768보다 클 때
-          spaceBetween: 0,
-        },
-        1024: {
-          slidesPerView: 1,  //브라우저가 1024보다 클 때
-          spaceBetween: 0,
-        },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
       },
     });
   </script>

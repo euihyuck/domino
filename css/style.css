@@ -370,7 +370,7 @@ header .spotmenu a:first-child::before {
 
 #section2 .img_box .big_img img {
     width: 100%;
-    height: 110%;
+    height: 100%;
     object-fit: fill;
 
 }
