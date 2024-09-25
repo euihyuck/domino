@@ -375,7 +375,7 @@ header .spotmenu a:first-child::before {
 
 }
 
-#section2 .img_box .big_img .text {
+/* #section2 .img_box .big_img .text {
     position: absolute;
     width: 50%;
     height: 100%;
@@ -396,7 +396,7 @@ header .spotmenu a:first-child::before {
 
 #section2 .img_box .big_img.on .text {
     left: 50%;
-}
+} */
 
 #section2 .img_box .small_img {
     display: flex;
@@ -1029,9 +1029,9 @@ label {width: 100%;}
 /* 회원가입 */
 .join_page {width: 100%;}
 /* .join_page .centerbox1200 {width: 100%; border: 1px solid #000;} */
-.join_page .centerbox1200  {justify-content: center;}
+.join_page .centerbox1200  {display: flex;justify-content: center;margin-top: 100px;}
 .join_page .centerbox1200 form {width: 800px;}
-
+.join_page .centerbox1200 legend {font-size: 30px; text-align: center;font-weight: 800;}
 .join_page .join_box ul li {position: relative;}
 
 .join_page .join_box ul li >.view_pw {position: absolute; right: 20px; top: 13px; cursor: pointer;}
@@ -1071,7 +1071,7 @@ label {width: 100%;}
     color: #1e1e1e;
     
 }
-.join_page .join_box li input[type="file"]~label{border-radius: 50px;padding: 0 30px; height: 50px;background: #8b4f00;color: #fff;}
+.join_page .join_box li input[type="file"]~label{border-radius: 50px;padding: 0 30px; height: 50px;background: #2854C5;color: #fff;}
 
  
  .join_page .join_box .gender {display: flex; gap:20px}
@@ -1091,6 +1091,8 @@ label {width: 100%;}
 
 .join_page .join_box li .member_rule {border: 1px solid #ddd; border-radius: 0px; white-space: pre-wrap; height: 300px; position: relative; overflow: hidden; width: 100%; font-size: 0;}
 .join_page .join_box li .member_rule .rule {overflow: auto; height: 100%; position: absolute; width: 100%; top: 0;left: 0;padding: 12px 16px; font-size: 16px;}
+
+.join_page .btn1 {width: 200px;height: 50px ;background: #238ED1;border:none;border-radius: 50px;}
 
   /* 스크롤바의 폭 너비 */
   .rule::-webkit-scrollbar {

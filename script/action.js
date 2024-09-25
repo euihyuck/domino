@@ -28,8 +28,8 @@ $(document).ready(function () {
 
         setTimeout(function () {
             $('.big_img').addClass('on')
-            $('.big_img .text strong').text(h3Text)
-            $('.big_img .text .cate').text(cateText)
+            /* $('.big_img .text strong').text(h3Text)
+            $('.big_img .text .cate').text(cateText) */
         }, 500)
     });
 
@@ -66,8 +66,8 @@ $(document).ready(function () {
 
         setTimeout(function () {
             $('.big_img').addClass('on')
-            $('.big_img .text strong').text(h3Text)
-            $('.big_img .text .cate').text(cateText)
+            /*  $('.big_img .text strong').text(h3Text)
+             $('.big_img .text .cate').text(cateText) */
         }, 500)
     }
     //gnb 를 mo_gnb_box에 삽입
