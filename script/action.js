@@ -100,7 +100,6 @@ $(document).ready(function () {
     $('.mo_gnb > li > a').click(function () {
         $('.mo_gnb .lnb').slideUp(300);
         $(this).siblings('.lnb').stop().slideToggle(300);
-        return false;
     })
 
     //* login page*/

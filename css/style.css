@@ -112,7 +112,7 @@ header .gnb li:hover::before{width: 50% ;left: 50%;}
 
 
 .mo_gnb_box {display:none;}
-.mo_gnb_box li {position: relative;}
+.mo_gnb_box li {position: relative;z-index: 9999999;}
 .mo_gnb_box li .lnb {display:none}
 .mo_gnb_box .mo_gnb {overflow: auto;}
 .mo_gnb_box li .mo_gnb li .lnb a {color: #fff; padding: 20px;border-bottom: 0;}
